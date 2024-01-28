@@ -14,5 +14,3 @@ RUN apk update && apk add bash
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 COPY . /app
-
-CMD bash -c "sleep infinity"
