@@ -51,7 +51,7 @@ will be incorporated by the simulator.
 ## 1.3. Start the simulator
 Start the oneM2M device simulator using the following command:
 ```
-> sudo node app.js
+> docker exec m2m node app.js
 ```
 Open the simulator dashboard interface on your browser. By default the simulator is available on the following address: http://127.0.0.1:80
 <h4>Known issue: The tool does not work with Firefox browser but is fine with Chrome or Edge.</h4>
